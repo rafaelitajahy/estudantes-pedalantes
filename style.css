@@ -28,9 +28,10 @@ html {
 
 @media (max-width: 450px) {
   html {
-    font-size: 45%;
+    font-size: 46%;
   }
 }
+
 
 body {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
@@ -49,6 +50,8 @@ a {
 div.container{
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  width: 100vw;
 }
 
 header.main-header{
