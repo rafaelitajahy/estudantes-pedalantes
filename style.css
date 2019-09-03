@@ -53,6 +53,7 @@ div.content{
   display: flex;
   flex-grow: 1; 
   height: 100vh;
+  width: 100%;
   align-items: center;
   flex-direction: column;    
   background: linear-gradient(#86eb48, #aaf77a)
