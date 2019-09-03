@@ -32,6 +32,9 @@ html {
   }
 }
 
+html, body {
+  height: 100%;  
+}
 
 body {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
@@ -47,15 +50,9 @@ a {
   color: #21272b;
 }
 
-div.container{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;  
-}
-
 header.main-header{
   display: flex;
-  height: 7vh;
+  height: 46px;
   width: 100%;
   background: #64dd17;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
@@ -72,7 +69,7 @@ header.main-header strong {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4rem;
+  font-size: 3rem;
   width: 60px;
   margin-left: 10px;
   margin-right: 10px;
@@ -87,23 +84,24 @@ header.main-header span{
 div.content{
   display: flex;
   flex-grow: 1;  
-  height: 93vh; 
+  height: 100%;
+  width: 100%; 
   align-items: center;
   flex-direction: column;    
   background: linear-gradient(#86eb48, #aaf77a)
 }
 
 div.content img {
-  height: 40rem;
+  height: 30rem;
 }
 
 div.content h1{
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 div.content p {
   margin-top: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 div.content div{
@@ -111,7 +109,7 @@ div.content div{
   display: flex;
 }
 div.content div img {
-  height: 5rem;
+  height: 3rem;
   margin-right: 2rem;
 }
 
