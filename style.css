@@ -4,17 +4,11 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
-
 body {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  display: flex;
-  flex-direction: column;
-}
+   }
 
 input, button {
   outline: 0;
@@ -22,6 +16,11 @@ input, button {
 
 a {
   color: #21272b;
+}
+
+div.container{
+  display: flex;
+  flex-direction: column;
 }
 
 header.main-header{
@@ -52,9 +51,10 @@ header.main-header strong {
 
 div.content{
   display: flex;
+  flex-grow: 1; 
+  height: 100vh;
   align-items: center;
-  flex-direction: column;
-  flex: 1 1;  
+  flex-direction: column;    
   background: linear-gradient(#86eb48, #aaf77a)
 }
 
@@ -75,9 +75,7 @@ div.content div img {
   margin-right: 15px;
 }
 
-footer {
-  
-}
+
 
 
 
