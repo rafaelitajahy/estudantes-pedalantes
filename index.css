@@ -120,7 +120,50 @@ div.membros {
   background: #fff;
   height: 100%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.membros h1 {
+  font-size: 3rem;
+  padding: 20px;
+}
+
+div.column {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  height: 100%;   
+}
+
+div.row {
+  display: flex;  
+}
+
+div.pessoa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+  max-width: 250px;
+  padding: 10px;
+}
+
+div.pessoa img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+}
+
+div.pessoa strong {
+  font-size: 2rem;
+}
+
+div.pessoa p {
+  font-size: 1.2rem;
 }
 
 div.projetos {
