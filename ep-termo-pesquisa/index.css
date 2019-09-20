@@ -1,0 +1,47 @@
+body {
+  position: relative;
+}
+
+.titulo {
+  padding: 0px 0 40px 0;
+  text-align: center;
+}
+
+.img {
+  text-align: center;
+}
+
+.container {
+}
+
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 350px;
+  padding: 30px;
+}
+
+.input_box {
+  float: left;
+  border: 1px solid #ff0000;
+  margin: 0 5px 0 0;
+  padding: 0;
+}
+
+.texto_box {
+  float: left;
+  color: #204060;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  text-align: center;
+}
