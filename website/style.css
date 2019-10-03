@@ -1,0 +1,74 @@
+:root {
+  --main-bg-color-primary:#52b912;
+  --main-bg-color-secudary:#41970c;
+  --font-color-black: #262626;
+  --font-color-gray: #4d4d4d;
+
+  --font-color-pink: #F896C3;
+  --font-color-Cheese: #F7AF95;
+  --font-color-Orange: #F8CA91;
+  --font-color-Yellow: #F8E2AA; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
+  padding: 0 !important;
+}
+
+.navbar-brand img {
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: var(--font-color-black) !important;
+  font-weight: 600;
+  float: right;
+  text-align: left;
+}
+
+.fa-bars {
+  color: var(--font-color-black);
+  font-size: 30px !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*------------------banner section-------------------------------*/
+#banner {
+  background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
+  color: var(--font-color-black);
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.fa-youtube-play {
+  width: 45px;
+  margin: 20px;
+}
