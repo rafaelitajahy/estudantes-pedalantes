@@ -15,8 +15,14 @@
   padding: 0;
 }
 
+html, body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #a8e781;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: sans-serif; 
 }
 
 #nav-bar {
@@ -55,7 +61,8 @@ body {
   outline: none !important;
 }
 
-/*------------------banner section-------------------------------*/
+/*------------------------------banner section-------------------------------*/
+
 #banner {
   background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
   color: var(--font-color-black);
@@ -71,4 +78,9 @@ body {
 .fa-youtube-play {
   width: 45px;
   margin: 20px;
+}
+
+#banner a {
+  color: var(--font-color-black);
+  text-decoration: none;
 }
