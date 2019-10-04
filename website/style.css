@@ -3,6 +3,8 @@
   --main-bg-color-secudary:#41970c;
   --font-color-black: #262626;
   --font-color-gray: #4d4d4d;
+  --font-color-white: #fff;
+
 
   --font-color-pink: #F896C3;
   --font-color-Cheese: #F7AF95;
@@ -15,11 +17,12 @@
   padding: 0;
 }
 
+/*
 html, body {
   max-width: 1200px;
   margin: 0 auto;
   background: #a8e781;
-}
+}*/
 
 body {
   font-family: sans-serif; 
@@ -46,14 +49,14 @@ body {
 }
 
 .navbar-nav li a {
-  color: var(--font-color-black) !important;
+  color: var(--font-color-white) !important;
   font-weight: 600;
   float: right;
   text-align: left;
 }
 
 .fa-bars {
-  color: var(--font-color-black);
+  color: var(--font-color-white);
   font-size: 30px !important;
 }
 
@@ -65,7 +68,7 @@ body {
 
 #banner {
   background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
-  color: var(--font-color-black);
+  color: var(--font-color-white);
   padding-top: 5%;
 }
 
@@ -76,11 +79,26 @@ body {
 }
 
 .fa-youtube-play {
-  width: 45px;
+  margin-left: 5px;
   margin: 20px;
 }
 
 #banner a {
-  color: var(--font-color-black);
+  color: var(--font-color-white);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#banner a:hover {
+  color: var(--font-color-Cheese);
+}
+
+.bottom-img {
+  width: 100%;
+}
+
+.img-car-banner {
+  max-height: 30rem;
 }
