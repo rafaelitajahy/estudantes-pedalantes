@@ -24,8 +24,9 @@ html, body {
   background: #a8e781;
 }*/
 
-body {
+html, body {
   font-family: sans-serif; 
+  width: 100%;
 }
 
 #nav-bar {
@@ -96,10 +97,10 @@ body {
   color: #4d4d4d;
 }
 
-#banner img{
+#fluid-youtube{
   transition: 0.5s;
 }
-#banner img:hover {
+#fluid-youtube:hover {
   transform: translateY(-10px);
 }
 
@@ -165,7 +166,7 @@ body {
 /*-----------------------------about-us section---------------------------*/
 
 #about-us {
-  background: #f8f9fa;
+  background: #fff;
   padding-bottom: 100px;
   padding-top: 50px;
 }
@@ -211,7 +212,7 @@ body {
 
 /*------------------Parceiros --------------*/
 #parceiros {
-  background: #f8f9fa;
+  background: #fff;
   padding: 100px 0;
 }
 #parceiros img {
@@ -222,8 +223,8 @@ body {
 
 /*-----------------------social media-------------------------------*/
 #social-media {
-  background: #f8f9fa;
-  padding: 100px 0;  ;
+  background: #fff;
+  padding: 100px 0;
 }
 #social-media p {
   font-size: 36px;
@@ -244,13 +245,11 @@ body {
 /*---------------------------footer-------------------*/
 #footer {
   background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
-  color: #fff;
-   
+  color: #fff;  
 }
 .footer-img{
-  width: 110% !important; 
+  width: 100% !important; 
   margin-top: -3px !important; 
-  margin-left: -3px !important;
 }
 .footer-box {
   padding: 20px;   
