@@ -1,11 +1,17 @@
+<!--https://github.com/cferdinandi/smooth-scroll-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LGWT256NQ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0LGWT256NQ"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() {
+        dataLayer.push(arguments);
+      }
       gtag('js', new Date());
 
       gtag('config', 'G-0LGWT256NQ');
@@ -15,7 +21,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Estudantes Pedalantes</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,32 +36,43 @@
   </head>
   <body>
     <section id="nav-bar">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo-corrente-ep.svg" alt="Estudantes Pedalantes"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#banner">Início<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#services">Projeto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#about-us">Pesquisadores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Parceiros</a>
-                  </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo-corrente-ep.svg" alt="Estudantes Pedalantes"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#banner"
+                >Início<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Projeto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">Pesquisadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#parceiros">Parceiros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </section>
 
     <!--banner section-->
@@ -64,15 +82,19 @@
           <div class="col-md-6">
             <p class="promo-title">Estudantes Pedalantes</p>
             <p>Inscreva-se em nossas redes sociais e acompanhei o projeto</p>
-            <a href="#"><i class="fa fa-youtube-play fa-4x"></i>Assista</a> 
+            <a href="#"><img src="images/fluid-youtube.svg" alt="">  Assista</a>
           </div>
           <div class="col-md-6 ">
-            <img src="images/ciclista.svg" class="img-fluid img-car-banner" alt="">           
+            <img
+              src="images/ciclista.svg"
+              class="img-fluid img-car-banner"
+              alt=""
+            />
           </div>
         </div>
       </div>
 
-      <img src="images/img-banner-fluid.svg" class="bottom-img" alt="">
+      <img src="images/img-banner-fluid.svg" class="bottom-img" alt="" />
     </section>
 
     <!------------Project Section----------------->
@@ -82,36 +104,101 @@
         <h1 class="title">Projeto?</h1>
         <div class="row text-center">
           <div class="col-md-4 services">
-            <img src="images/app-mobile.svg" class="services-img" alt="Imagem do ilustrativa do aplicativo">            
+            <img
+              src="images/app-mobile.svg"
+              class="services-img"
+              alt="Imagem do ilustrativa do aplicativo"
+            />
             <h4>App</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
           </div>
-          <div class="col-md-4 services">  
-            <img src="images/app-mobile.svg" class="services-img" alt="">          
+          <div class="col-md-4 services">
+            <img src="images/app-mobile.svg" class="services-img" alt="" />
             <h4>Bike geradora</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
           </div>
-          <div class="col-md-4 services">  
-            <img src="images/app-mobile.svg" class="services-img" alt="">            
+          <div class="col-md-4 services">
+            <img src="images/app-mobile.svg" class="services-img" alt="" />
             <h4>App</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
           </div>
         </div>
-        <button type="button" class="btn btn-primary"> Mais detalhes</button>
+        <button type="button" class="btn btn-primary">Mais detalhes</button>
       </div>
     </section>
 
-<!----------------About Us--------------------->
+    <!----------------About Us--------------------->
     <section id="about-us">
       <div class="container">
         <h1 class="title text-center">Pesquisadores?</h1>
         <div class="row">
-          <div class="col-md-12">
-              <img src="images/app-mobile.svg" class="services-img" alt="">  
-              <img src="images/app-mobile.svg" class="services-img" alt="">  
-              <img src="images/app-mobile.svg" class="services-img" alt="">  
-              <img src="images/app-mobile.svg" class="services-img" alt="">  
-              <img src="images/app-mobile.svg" class="services-img" alt="">                 
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="imgBx">
+                  <img src="https://i.pravatar.cc/300?img=17" alt="" />
+                </div>
+                <div class="details">
+                  <h3>
+                    John Doe <br />
+                    <span>Web Designer</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBx">
+                  <img src="https://i.pravatar.cc/300?img=10" alt="" />
+                </div>
+                <div class="details">
+                  <h3>
+                    John Doe <br />
+                    <span>Web Designer</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBx">
+                  <img src="https://i.pravatar.cc/300?img=15" alt="" />
+                </div>
+                <div class="details">
+                  <h3>
+                    John Doe <br />
+                    <span>Web Designer</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBx">
+                  <img src="https://i.pravatar.cc/300?img=5" alt="" />
+                </div>
+                <div class="details">
+                  <h3>
+                    John Doe <br />
+                    <span>Web Designer</span>
+                  </h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="imgBx">
+                  <img src="https://i.pravatar.cc/300?img=19" alt="" />
+                </div>
+                <div class="details">
+                  <h3>
+                    John Doe <br />
+                    <span>Web Designer</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
@@ -120,8 +207,8 @@
     <!------------------Parceiros--------------------->
     <section id="parceiros">
       <div class="container text-center">
-          <h1 class="title text-center">Parceiros?</h1>
-          <img src="images/logo-casa-gool.jpeg" class="services-img" alt="">
+        <h1 class="title text-center">Parceiros?</h1>
+        <img src="images/logo-casa-gool.jpeg" class="services-img" alt="" />
       </div>
     </section>
 
@@ -130,26 +217,53 @@
       <div class="container text-center">
         <p>Mídias Sociais?</p>
         <div class="social-icons">
-          <a href=""><img src="images/fluid-email.svg" alt=""></a>
-          <a href=""><img src="images/fluid-youtube.svg" alt=""></a>
-          <a href=""><img src="images/fluid-instagram.svg" alt=""></a>
+          <a href=""><img src="images/fluid-email.svg" alt=""/></a>
+          <a href=""><img src="images/fluid-youtube.svg" alt=""/></a>
+          <a href=""><img src="images/fluid-instagram.svg" alt=""/></a>
         </div>
       </div>
     </section>
 
     <!---------------------footer section-------------------------->
     <section id="footer">
-      <img src="images/footer.svg" class="footer-img" alt="">
+      <img src="images/footer.svg" class="footer-img" alt="" />
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer-box">
-            <img src="images/logo-corrente-ep.svg" alt="">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+            <img src="images/logo-corrente-ep.svg" alt="" />
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>CONTATO</b></p>
+            <p>
+              <i class="fa fa-map-marker"></i>
+              Pesquisa da Universidade Federal do Sul da Bahia, Praça Joana
+              Angélica 250, Bairro São José
+            </p>
+
+            <P
+              ><i class="fa fa-envelope-o"></i>E-mail:
+              estudantespedalantes@gmail.com</P
+            >
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>Receba novidades</b></p>
+            <input type="email" class="form-control" placeholder="Seu Email" />
+            <button type="button" class="btn btn-primary">Assinar</button>
           </div>
         </div>
+        <hr />
+        <p class="copyright">
+          <a
+            href="https://www.linkedin.com/in/rafael-carvalho-itajahy-73771839/"
+            >by Rafael Carvalho</a
+          >
+        </p>
       </div>
-
     </section>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -160,5 +274,32 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+
+    <script src="js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true
+        },
+        pagination: {
+          el: '.swiper-pagination'
+        }
+      });
+    </script>
+
+    <!------------------------Smooth Scroll------------------->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+      </script>
   </body>
 </html>
