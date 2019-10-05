@@ -41,7 +41,7 @@ body {
 
 .navbar-brand img {
   height: 50px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 
 .navbar-nav li {
@@ -53,6 +53,7 @@ body {
   font-weight: 600;
   float: right;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .fa-bars {
@@ -106,4 +107,98 @@ body {
 /*------------services section------------*/
 #services {
   padding: 80px 0;
+}
+
+.services-img{
+  width: 200px;
+  margin-top: 20px;
+}
+
+.services {
+  padding: 20px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before{
+  content: '';
+  background: var(--main-bg-color-primary);
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after{
+  content: '';
+  background: var(--main-bg-color-primary);
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
+}
+
+/*-----------------------------about-us section---------------------------*/
+
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+
+/*-----------------------social media-------------------------------*/
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img {
+  width: 60px;
+  transition: 0.5s;
+}
+
+.social-icons a:hover img {
+  transform: translateY(-10px);
+}
+
+/*---------------------------footer-------------------*/
+#footer {
+  background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
+  color: #fff;
+   
+}
+.footer-img{
+  width: 100%;  
+  
+}
+.footer-box {
+  padding: 20px;   
+}
+
+.footer-box img {
+  width: 100px;
+  margin-bottom: 20px; 
 }
