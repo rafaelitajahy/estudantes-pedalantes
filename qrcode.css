@@ -7,15 +7,24 @@
 html, body {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
-  -webkit-font-smoothing: antialiased !important;
-
-  max-width: 600px;
+  -webkit-font-smoothing: antialiased !important;  
   height: 100%;
   margin: auto;
-  background: linear-gradient(#64dd17 , #9fee6f) ;
+  
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center; 
+  height: 100%;
+  background: linear-gradient(#86eb48, #aaf77a);  
+}
+
+#main{
+  max-width: 600px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,6 +62,7 @@ a {
 #links {
   background: #fff;  
   width: 100%;  
+  margin-bottom: 20px;
 }
 
 #links ul {
