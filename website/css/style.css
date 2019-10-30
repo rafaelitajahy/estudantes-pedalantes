@@ -25,6 +25,8 @@ html, body {
 }*/
 
 html, body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
   font-family: sans-serif; 
   width: 100%;
 }
@@ -302,6 +304,20 @@ hr {
 
 .copyright a:hover {
   color: #4d4d4d; 
+}
+
+#conteudo-pesquisa {
+  margin: 50px auto;
+  padding: 10px;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+#conteudo-pesquisa h3 {
+  margin-bottom: 50px;  
 }
 
 
