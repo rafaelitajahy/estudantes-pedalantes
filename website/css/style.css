@@ -218,8 +218,8 @@ html, body {
   padding: 100px 0;
 }
 #parceiros img {
-  width:150px;
-  padding-top: 30px;
+  width:250px;
+  padding-top: 50px;
 }
 
 
@@ -235,8 +235,8 @@ html, body {
 }
 
 .social-icons img {
-  width: 100px;
-  padding: 20px;
+  width: 200px;
+  padding: 40px;
   transition: 0.5s;
 }
 
