@@ -33,6 +33,12 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+        <!-- Owl-Carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
   </head>
   <body>
     <section id="nav-bar">
@@ -85,11 +91,13 @@
             <a href="https://www.youtube.com/channel/UCIUqRRaCEMlQ9G7p90_ot-w/featured" target="_blank" ><img src="images/fluid-youtube.svg" id="fluid-youtube" alt="">  Assista</a>
           </div>
           <div class="col-md-6 ">
-            <img
-              src="images/ciclista.svg"
-              class="img-fluid img-car-banner"
-              alt=""
-            />
+              <div class="owl-carousel owl-theme">
+                  <img
+                  src="images/ciclista.svg"
+                  class="img-fluid img-car-banner login_img"
+                  alt=""
+                />
+              </div>              
           </div>
         </div>
       </div>      
@@ -305,5 +313,22 @@
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
       </script>
+
+  
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                items: 1
+            });
+        });
+    </script>
   </body>
 </html>
