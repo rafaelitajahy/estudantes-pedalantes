@@ -106,9 +106,13 @@ html, body {
   transform: translateY(-10px);
 }
 
-.bottom-img {
-  width: 100%;
+#bottom-img {  
+  min-width: 100%;  
+  margin-bottom: -3px;
 }
+
+#bottom-img::before {} 
+
 
 .img-car-banner {
   max-height: 30rem;
@@ -249,9 +253,13 @@ html, body {
   background-image: linear-gradient(to right, var(--main-bg-color-primary), var(--main-bg-color-secudary));
   color: #fff;  
 }
-.footer-img{
-  width: 100% !important; 
-  margin-top: -3px !important; 
+
+#footer-img{
+  width: 100%;  
+  margin-top: -3px;
+}
+#footer-img::before{
+  width: 100%;  
 }
 .footer-box {
   padding: 20px;   
